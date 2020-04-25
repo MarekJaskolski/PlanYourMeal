@@ -1,0 +1,28 @@
+.CTA-Button {
+  background-color: $buttonColor;
+  border: none;
+  padding: 15px 40px;
+  font-family: $textFont;
+  color: white;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.call-to-action-text {
+  color: white;
+  font-family: $textFont;
+  h2 {
+    font-size: 1.5 * $baseFontSize;
+    font-weight: 400;
+    padding: 10px 30px;
+  }
+  p {
+    font-size: $baseFontSize;
+    padding: 10px 30px;
+  }
+}
+.call-to-action {
+  background-color: $navigationColor;
+  height: 200px;
+  align-items: center;
+  margin-top: 15px;
+}

@@ -1,0 +1,38 @@
+nav {
+  padding: 20px;
+  ul {
+    justify-content: space-evenly;
+    a {
+      color: white;
+    }
+    li {
+      list-style-type: none;
+      font-family: $textFont;
+      font-size: $baseFontSize;
+      &:hover {
+        color: $headerText;
+        cursor: pointer;
+      }
+    }
+  }
+}
+header {
+  align-items: center;
+  text-align: center;
+  background-color: $navigationColor;
+  color: white;
+  height: 80px;
+  h1 {
+    span {
+      color: $headerText;
+    }
+  }
+  .header-logo {
+    font-family: $logoFont;
+    font-size: 2.5 * $baseFontSize;
+    font-weight: 400;
+  }
+}
+a {
+  text-decoration: none;
+}

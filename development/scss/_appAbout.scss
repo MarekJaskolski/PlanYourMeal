@@ -1,0 +1,30 @@
+.about-app {
+  justify-content: space-evenly;
+  height: 400px;
+  background-color: #ebebeb;
+  .about-app-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      padding: 10px;
+    }
+    p {
+      text-align: center;
+      padding: 10px;
+      font-family: $textFont;
+      font-size: 12px;
+      color: $headerTextColor;
+    }
+    h2 {
+      text-align: center;
+      padding: 10px;
+      font-family: $textFont;
+      font-size: $baseFontSize * 1.5;
+      color: $headerTextColor;
+      font-weight: 400;
+    }
+  }
+}

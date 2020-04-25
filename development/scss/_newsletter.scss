@@ -1,0 +1,27 @@
+.newsletter {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100px;
+  background-color: $navigationColor;
+  color: white;
+  font-family: $textFont;
+  h2 {
+    font-size: $baseFontSize * 1.5;
+    font-weight: 400;
+  }
+  .emailInput {
+    height: 30px;
+    border: none;
+    display: block;
+  }
+  .newsletter-btn {
+    height: 30px;
+    border: none;
+    width: 120px;
+    background-color: #ff6600;
+    font-weight: 700;
+    color: white;
+    padding: 0;
+  }
+}

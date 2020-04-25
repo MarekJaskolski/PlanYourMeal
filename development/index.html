@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Zaplanuj Jedzonko</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body class="container">
+    <header class="row">
+      <h1 class="col-4 header-logo">Zaplanuj<span>Jedzonko</span></h1>
+      <nav class="col-8">
+        <ul class="row">
+          <a href="#"><li>ZAPLANUJ POSIŁEK!</li></a>
+          <a href="#why"><li>DLACZEGO WARTO?</li></a>
+          <a href="#aboutMe"><li>O MNIE</li></a>
+          <a href="#contact"><li>KONTAKT</li></a>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <!-- carousel -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <div class="carusel-picture imgcarusel-1"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <div class="carusel-picture imgcarusel-2"></div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <div class="carusel-picture imgcarusel-3"></div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </section>
+    <section class="row call-to-action">
+      <div class="col-9 call-to-action-text">
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <p>
+          consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua.
+        </p>
+      </div>
+      <div class="col-3">
+        <button class="CTA-Button" type="button">
+          Go to Aplication
+        </button>
+      </div>
+    </section>
+    <section id="why" class="row about-app col-12">
+      <div class="col-3 about-app-box">
+        <i class="fa fa-check" style="font-size: 100px; color: #c0c0c0;"></i>
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+          alias sint nobis sequi, nesciunt dolorem dolore. Ad reprehenderit a
+          quibusdam officiis facilis pariatur sapiente ab itaque mollitia.
+        </p>
+      </div>
+      <div class="col-3 about-app-box">
+        <i class="far fa-clock" style="font-size: 100px; color: #c0c0c0;"></i>
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+          alias sint nobis sequi, nesciunt dolorem dolore. Ad reprehenderit a
+          quibusdam officiis facilis pariatur sapiente ab itaque mollitia.
+        </p>
+      </div>
+      <div class="col-3 about-app-box">
+        <i class="fa fa-list" style="font-size: 100px; color: #c0c0c0;"></i>
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+          alias sint nobis sequi, nesciunt dolorem dolore. Ad reprehenderit a
+          quibusdam officiis facilis pariatur sapiente ab itaque mollitia.
+        </p>
+      </div>
+    </section>
+    <section class="row newsletter">
+      <h2 class="col-6">Lorem ipsum dolor sit amet</h2>
+      <div class="col-6 row">
+        <input class="emailInput" type="text" name="email" />
+        <button class="newsletter-btn" type="button">Go newsletter</button>
+      </div>
+    </section>
+    <section id="aboutMe" class="row about-me">
+      <div class="col-5 about-me-picture row">
+        <img class="user-image" src="#" />
+      </div>
+      <div class="col-7 about-me-text">
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
+          porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et
+          faucibus arcu condimentum sed. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat.
+          Donec placerat nisl magna, et faucibus arcu condimentum sed.
+        </p>
+      </div>
+    </section>
+    <section id="contact" class="row footer-section">
+      <div class="col-4 row footer-box">
+        <h2>Lorem ipsum dolor</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at
+          poritior semm. Aliquam erat volutpat. Donec placerat nisl manga
+        </p>
+      </div>
+      <div class="col-4 row footer-box">
+        <h2>Lorem ipsum dolor</h2>
+        <ul>
+          <li>consectetur adipisicing elit</li>
+          <li>sed do eiusmod tempor</li>
+          <li>incididunt ut labore</li>
+          <li>et dolore manga aliqua</li>
+        </ul>
+      </div>
+      <div class="col-4 row footer-box">
+        <h2>Lorem ipsum dolor</h2>
+        <div class="footer-box-small row">
+          <input class="emailInput" type="text" name="email" />
+          <a href="#"
+            ><button class="footer-btn" type="button">Lorem</button></a
+          >
+        </div>
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a href="https://twitter.com/explore"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+          <a href="https://www.instagram.com/?hl=pl"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <footer class="col-12 row">
+      <p>&copyCopyright <span>Zaplanuj Jedzonko.pl</span></p>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

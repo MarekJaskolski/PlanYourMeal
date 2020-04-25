@@ -1,0 +1,26 @@
+.about-me {
+  height: 350px;
+  align-items: center;
+  background-color: #ebebeb;
+  .about-me-picture {
+    justify-content: center;
+  }
+  img {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+  }
+  .about-me-text {
+    height: 200px;
+    padding: 0 70px 0 70px;
+    font-family: $textFont;
+    h2 {
+      padding-bottom: 20px;
+      font-size: $baseFontSize * 1.5;
+      font-weight: 400;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.footer-section {
+  height: 200px;
+  background-color: $navigationColor;
+  .footer-box {
+    flex-direction: column;
+    height: 200px;
+    padding: 40px;
+    color: white;
+    font-family: $textFont;
+    ul {
+      margin-left: 20px;
+      li {
+        font-size: 12px;
+      }
+    }
+    .footer-box-small {
+      padding: 10px 0 10px 0;
+      input {
+        display: block;
+        border: none;
+      }
+      button {
+        display: block;
+        background-color: $buttonColor;
+        border: none;
+        width: 80px;
+        height: 20px;
+        color: white;
+        font-family: $textFont;
+        font-weight: 700;
+      }
+    }
+
+    i {
+      color: white;
+      font-size: $baseFontSize * 1.5;
+      letter-spacing: 15px;
+    }
+    h2 {
+      font-size: $baseFontSize * 1.5;
+      font-weight: 400;
+      padding-bottom: 20px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
+footer {
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background-color: #4a4a49;
+  color: white;
+  span {
+    color: $headerText;
+    font-family: $logoFont;
+  }
+}
