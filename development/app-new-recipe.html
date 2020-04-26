@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Zaplanuj Jedzonko</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body class="container">
+    <header class="row app-header">
+      <h1 class="col-4 header-logo">Zaplanuj<span>Jedzonko</span></h1>
+      <div class="row">
+        <p id="userName">Imię</p>
+        <i class="fas fa-user"></i>
+      </div>
+    </header>
+    <section class="app-main row col-12">
+      <nav class="col-3 app-nav">
+        <div class="row app-nav-box active-window">
+          <a href="app.html">Pulpit</a>
+          <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="row app-nav-box">
+          <a href="#">Przepisy</a>
+          <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="row app-nav-box">
+          <a href="#">Plany</a>
+          <i class="fas fa-chevron-right"></i>
+        </div>
+      </nav>
+
+      <div class="col-9 main-box">
+        <div class="recipe-main">
+          <header class="row recipe-heder">
+            <p>NOWY PRZEPIS</p>
+            <a><button>Zapisz i zamknij</button></a>
+          </header>
+          <div class="info-recipe-box row">
+            <p>Nazwa przepisu</p>
+            <input type="text" id="recipeName" name="recipeName" />
+          </div>
+          <div class="info-recipe-box row">
+            <p>Opis przepisu</p>
+            <input
+              type="text"
+              id="recipeDescription"
+              name="recipeDescription"
+            />
+          </div>
+          <div class="row">
+            <div class="adding-box-recipe row">
+              <p>INSTRUKCJE</p>
+              <div class="row">
+                <input
+                  type="text"
+                  id="recipeInstruction"
+                  name="recipeInstruction"
+                />
+                <i class="far fa-plus-square"></i>
+              </div>
+              <ol>
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+              </ol>
+            </div>
+            <div class="adding-box-recipe row">
+              <p>SKŁADNIKI</p>
+              <div class="row">
+                <input
+                  type="text"
+                  id="recipeIngredients"
+                  name="recipeIngredients"
+                />
+                <i class="far fa-plus-square"></i>
+              </div>
+              <ol>
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/appNewRecipe.js"></script>
+  </body>
+</html>

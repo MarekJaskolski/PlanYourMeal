@@ -17,12 +17,15 @@
   <body class="container">
     <header class="row app-header">
       <h1 class="col-4 header-logo">Zaplanuj<span>Jedzonko</span></h1>
-      <p>Imię <i class="fas fa-user"></i></p>
+      <div class="row">
+        <p id="userName">Imię</p>
+        <i class="fas fa-user"></i>
+      </div>
     </header>
     <section class="app-main row col-12">
       <nav class="col-3 app-nav">
         <div class="row app-nav-box active-window">
-          <a href="#">Pulpit</a>
+          <a href="app.html">Pulpit</a>
           <i class="fas fa-chevron-right"></i>
         </div>
         <div class="row app-nav-box">
@@ -35,21 +38,58 @@
         </div>
       </nav>
       <div class="col-9 main-box">
-        <div class="row user-data-box">
+        <div id="nameBox" class="row user-data-box">
           <h1>Witaj,</h1>
           <h2>wygląda na to że jesteś tutaj</h2>
           <h2>pierwszy raz</h2>
           <input
             type="text"
-            id="user"
+            id="userApp"
             name="userName"
             placeholder="tutaj wpisz jak masz na imię"
           />
-          <button class="confirm-btn">Gotowe!</button>
+          <button class="confirm-btn" id="confirmBtn">Gotowe!</button>
           <p>Podaj nam swoje imię, a my zorganizujemy</p>
           <p>dla Ciebie naszą aplikację</p>
         </div>
+
+        <div>
+          <div class="row widget">
+            <a href="app-new-recipe.html">
+              <div class="row widget-box">
+                <i class="far fa-plus-square"></i>
+                <p>dodaj przepis</p>
+              </div>
+            </a>
+            <a href="#">
+              <div class="row widget-box">
+                <i class="far fa-plus-square"></i>
+                <p>dodaj plan</p>
+              </div>
+            </a>
+            <div class="row widget-line-box">
+              <div class="row widget-line">
+                <i class="fas fa-info-circle"></i>
+                <p>Masz już 99 przepisów, nieźle</p>
+                <i class="fas fa-window-close"></i>
+              </div>
+              <div class="row widget-line">
+                <i class="fas fa-exclamation-circle"></i>
+                <p>Pamiętaj, aby dodać plan</p>
+                <i class="fas fa-window-close"></i>
+              </div>
+              <div class="row widget-line">
+                <i class="fas fa-check-circle"></i>
+                <p>Świetnie,że jesteś! Udanego planowania i smacznego!:)</p>
+                <i class="fas fa-window-close"></i>
+              </div>
+            </div>
+          </div>
+          <div></div>
+        </div>
       </div>
     </section>
+
+    <script src="./js/appUserData.js"></script>
   </body>
 </html>

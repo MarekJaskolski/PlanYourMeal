@@ -5,10 +5,12 @@
     padding: 20px;
     font-size: $baseFontSize * 2;
     font-family: $textFont;
-    padding-right: 80px;
   }
   i {
     color: $headerText;
+    padding: 25px 0 25px 0;
+    font-size: $baseFontSize * 2;
+    margin-right: 40px;
   }
 }
 .app-main {
