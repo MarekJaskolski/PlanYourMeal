@@ -1,0 +1,43 @@
+.user-data-box {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: $backgroundColor;
+  margin: 20px;
+  height: 85vh;
+  border: 1px dashed $textColor;
+  h1 {
+    font-size: $baseFontSize * 2;
+    font-family: $textFont;
+    color: $headerTextColor;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: $baseFontSize * 1.5;
+    font-family: $textFont;
+    color: $headerTextColor;
+    font-weight: 600;
+  }
+  h2:nth-child(3) {
+    margin-bottom: 30px;
+  }
+  input {
+    height: 30px;
+    width: 200px;
+    margin-bottom: 30px;
+  }
+  button {
+    background-color: $buttonColor;
+    border: none;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-family: $textFont;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+}

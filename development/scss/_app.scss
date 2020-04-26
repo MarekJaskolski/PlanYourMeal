@@ -1,0 +1,54 @@
+.app-header {
+  justify-content: space-between;
+  height: 10vh;
+  p {
+    padding: 20px;
+    font-size: $baseFontSize * 2;
+    font-family: $textFont;
+    padding-right: 80px;
+  }
+  i {
+    color: $headerText;
+  }
+}
+.app-main {
+  height: 90vh;
+}
+.app-nav {
+  .active-window {
+    border-left: 3px solid $headerText;
+    i {
+      display: block !important;
+      color: $headerText;
+    }
+  }
+  background-color: $headerTextColor;
+  padding: 0;
+  .app-nav-box {
+    height: 80px;
+    font-size: $baseFontSize * 1.5;
+    font-family: $textFont;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      color: white;
+      padding-left: 30px;
+    }
+    i {
+      display: none;
+      padding-right: 20px;
+    }
+    &:hover {
+      cursor: pointer;
+      border-left: 3px solid $headerText;
+      i {
+        display: block;
+        color: $headerText;
+      }
+    }
+  }
+}
+.main-box {
+  background-image: url("../images/background-image.png");
+}
